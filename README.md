@@ -62,3 +62,15 @@ int(123)
 
 ```
 
+```
+$var = NULL;
+unset($var); //undefined
+
+if (isset($var)) {
+    echo 'Variable is set';
+} else {
+    echo 'Variable is not set';
+}
+
+```
+
